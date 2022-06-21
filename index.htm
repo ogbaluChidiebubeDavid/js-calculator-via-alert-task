@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js calculator using alert</title>
+</head>
+<body>
+    <script>
+        num1 = Number(prompt('Enter first number: '))
+        num2 = Number(prompt('Enter second number: '))
+        operator = prompt('Enter Operator: ')
+
+        if (operator === '+'){
+            alert('The sum is ' + Number(num1 + num2))
+        }
+
+        else if (operator === '-'){
+            alert('The difference is ' + Number(num1 - num2))
+        } 
+
+        else if (operator === '*'){
+            alert('The product is ' + Number(num1 * num2))
+        }
+
+        else if (operator === '/'){
+            alert('The answer is ' + Number(num1 / num2))
+        }
+
+        else if (operator === '%'){
+            alert('The Modulus is ' + Number(num1 % num2))
+        }
+
+        else if (operator === '**'){
+            alert('The exponent is ' + Number(num1 ** num2))
+        }
+
+        else {
+            alert('Invalid Operation')
+        }
+    </script>
+</body>
+</html>
